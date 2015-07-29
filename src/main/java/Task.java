@@ -1,3 +1,11 @@
 public class Task {
-  public Task(String description) {}
+  private String mDescription;
+
+  public Task(String description) {
+    mDescription = description;
+  }
+
+  public String getDescription() {
+    return mDescription;
+  }
 }
